@@ -1,0 +1,259 @@
+
+.spinniLogo {
+    position: absolute;
+    height: 8vh;
+    width: auto;
+}
+
+.slider {
+    position: relative;
+    height: 50vh;
+    max-width: calc(50vh / 0.75);
+    margin: 0 auto;
+}
+
+.centerImg, .leftImg, .rightImg, .mover {
+    position: absolute;
+    bottom: 0;
+}
+
+.centerImg {
+    width: 40vw;
+    max-height: 35vh;
+    max-width: calc(35vh * (250 / 354));
+    left: 30%;
+    z-index: 2;
+    box-shadow: 10px 0 20px #000, -10px 0 20px #000;
+}
+
+.leftImg, .rightImg {
+    width: 30vw;
+    max-height: calc(35vh * 0.75);
+    max-width: calc(35vh * 0.75 * (250 / 354));
+    filter: grayscale(0.7);
+    -webkit-filter: grayscale(0.7);
+}
+
+.leftImg {
+    left: 5%;
+    z-index: 1;
+}
+
+.rightImg {
+    left: 65%;
+    z-index: 1;
+}
+
+.centerMover {
+    z-index: 2;
+}
+
+
+
+.slideButtonBox {
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+.slideButton {
+    display: inline-block;
+    position: relative;
+    padding: 20px;
+}
+
+.makeLeft {
+    animation: make-left 0.5s forwards;
+    -webkit-animation: make-left 0.5s forwards;
+}
+
+.makeCenterLeft {
+    animation: make-center-left 0.5s forwards;
+    -webkit-animation: make-center-left 0.5s forwards;
+}
+
+.makeCenterRight {
+    animation: make-center-right 0.5s forwards;
+    -webkit-animation: make-center-right 0.5s forwards;
+}
+
+.makeRight {
+    animation: make-right 0.5s forwards;
+    -webkit-animation: make-right 0.5s forwards;
+}
+
+@keyframes make-left {
+    0% {
+        width: 40vw;
+        left: 30%;
+        max-height: 35vh;
+        max-width: calc(35vh * (250 / 354));
+        z-index: 2;
+        box-shadow: 10px 0 20px #000, -10px 0 20px #000, 10px 0 20px #000, -10px 0 20px #000;
+    }
+    100% {
+        width: 30vw;
+        max-height: calc(35vh * 0.75);
+        max-width: calc(35vh * 0.75 * (250 / 354));
+        filter: grayscale(0.7);
+        -webkit-filter: grayscale(0.7);
+        left: 5%;
+        z-index: 1;
+        box-shadow: 0 0 0 #000;
+}
+}
+
+@-webkit-keyframes make-left {
+    0% {
+        width: 40vw;
+        left: 30%;
+        max-height: 35vh;
+        max-width: calc(35vh * (250 / 354));
+        z-index: 2;
+        box-shadow: 10px 0 20px #000, -10px 0 20px #000, 10px 0 20px #000, -10px 0 20px #000;
+    }
+    100% {
+        width: 30vw;
+        max-height: calc(35vh * 0.75);
+        max-width: calc(35vh * 0.75 * (250 / 354));
+        left: 5%;
+        z-index: 1;
+        box-shadow: 0 0 0 #000;
+        filter: grayscale(0.7);
+        -webkit-filter: grayscale(0.7);
+}
+}
+
+@keyframes make-center-left {
+    0% {
+        width: 30vw;
+        max-height: calc(35vh * 0.75);
+        max-width: calc(35vh * 0.75 * (250 / 354));
+        left: 5%;
+        z-index: 1;
+        box-shadow: 0 0 0 #000, 0 0 0 #000;
+        filter: grayscale(0.7);
+        -webkit-filter: grayscale(0.7);
+}
+    100% {
+        width: 40vw;
+        left: 30%;
+        max-height: 35vh;
+        max-width: calc(35vh * (250 / 354));
+        z-index: 3;
+        box-shadow: 10px 0 20px #000, -10px 0 20px #000, 10px 0 20px #000, -10px 0 20px #000;
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+    }
+}
+
+@-webkit-keyframes make-center-left {
+    0% {
+        width: 30vw;
+        max-height: calc(35vh * 0.75);
+        max-width: calc(35vh * 0.75 * (250 / 354));
+        left: 5%;
+        z-index: 1;
+        box-shadow: 0 0 0 #000, 0 0 0 #000;
+        filter: grayscale(0.7);
+        -webkit-filter: grayscale(0.7);
+}
+    100% {
+        width: 40vw;
+        left: 30%;
+        max-height: 35vh;
+        max-width: calc(35vh * (250 / 354));
+        z-index: 3;
+        box-shadow: 10px 0 20px #000, -10px 0 20px #000, 10px 0 20px #000, -10px 0 20px #000;
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+    }
+}
+
+@keyframes make-center-right {
+    0% {
+        width: 30vw;
+        max-height: calc(35vh * 0.75);
+        max-width: calc(35vh * 0.75 * (250 / 354));
+        left: 65%;
+        z-index: 1;
+        box-shadow: 0 0 0 #000, 0 0 0 #000;
+        filter: grayscale(0.7);
+        -webkit-filter: grayscale(0.7);
+}
+    100% {
+        width: 40vw;
+        left: 30%;
+        max-height: 35vh;
+        max-width: calc(35vh * (250 / 354));
+        z-index: 2;
+        box-shadow: 10px 0 20px #000, -10px 0 20px #000, 10px 0 20px #000, -10px 0 20px #000;
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+    }
+}
+
+@-webkit-keyframes make-center-right {
+    0% {
+        width: 30vw;
+        max-height: calc(35vh * 0.75);
+        max-width: calc(35vh * 0.75 * (250 / 354));
+        left: 65%;
+        z-index: 1;
+        box-shadow: 0 0 0 #000, 0 0 0 #000;
+        filter: grayscale(0.7);
+        -webkit-filter: grayscale(0.7);
+}
+    100% {
+        width: 40vw;
+        left: 30%;
+        max-height: 35vh;
+        max-width: calc(35vh * (250 / 354));
+        z-index: 2;
+        box-shadow: 10px 0 20px #000, -10px 0 20px #000, 10px 0 20px #000, -10px 0 20px #000;
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+    }
+}
+
+@keyframes make-right {
+    0% {
+        width: 40vw;
+        left: 30%;
+        max-height: 35vh;
+        max-width: calc(35vh * (250 / 354));
+        z-index: 2;
+        box-shadow: 10px 0 20px #000, -10px 0 20px #000, 10px 0 20px #000, -10px 0 20px #000;
+    }
+    100% {
+        width: 30vw;
+        max-height: calc(35vh * 0.75);
+        max-width: calc(35vh * 0.75 * (250 / 354));
+        left: 65%;
+        filter: grayscale(0.7);
+        -webkit-filter: grayscale(0.7);
+        z-index: 2;
+        box-shadow: 0 0 0 #000;
+}
+}
+
+@-webkit-keyframes make-right {
+    0% {
+        width: 40vw;
+        left: 30%;
+        max-height: 35vh;
+        max-width: calc(35vh * (250 / 354));
+        z-index: 2;
+        box-shadow: 10px 0 20px #000, -10px 0 20px #000, 10px 0 20px #000, -10px 0 20px #000;
+    }
+    100% {
+        width: 30vw;
+        max-height: calc(35vh * 0.75);
+        max-width: calc(35vh * 0.75 * (250 / 354));
+        left: 65%;
+        z-index: 2;
+        box-shadow: 0 0 0 #000;
+        filter: grayscale(0.7);
+        -webkit-filter: grayscale(0.7);
+}
+}

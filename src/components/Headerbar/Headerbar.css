@@ -1,0 +1,70 @@
+
+.headerbar {
+    position: relative;
+    height: 25vh;
+}
+
+.whiteBar {
+    position: absolute;
+    height: 12.5vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid #fff;
+}
+
+.headerLinksTop, .headerLinksBottom {
+    display: inline-block;
+    position: absolute;
+    height: auto;
+    width: calc( 100vw - 8vw - 30vw );
+    right: 0;
+}
+
+.headerLinksTop {
+    bottom: 2vw;
+}
+
+.headerLinksBottom {
+    bottom: -7vw;
+}
+
+.headerStripe {
+    position: relative;
+    stroke:#fff;
+    stroke-width:2
+}
+
+.imageContainer {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.headerRing {
+    position: relative;
+    height: 30vw;
+    max-height: 23vh;
+    width: auto;
+    animation: spin-element 5s forwards linear infinite;
+    -webkit-animation: spin-element 5s forwards linear infinite;
+}
+
+.jrLogo {
+    position: absolute;
+    height: 20vw;
+    max-height: 15.5vh;
+    width: auto;
+    top: 45%;
+    left: 47.5%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
