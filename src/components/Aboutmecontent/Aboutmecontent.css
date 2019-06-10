@@ -1,0 +1,80 @@
+
+.aboutMeContainer {
+  display: inline-block;
+  position: relative;
+  width: 75vw;
+  height: 60vh;
+  left: 12.5vw;
+  overflow-y: scroll;
+  animation: fade-in 1s forwards;
+  -webkit-animation: fade-in 1s forwards;
+}
+
+#downArrow {
+  display: block;
+  position: absolute;
+  width: 4vw;
+  height: auto;
+  left: 87.5vw;
+  bottom: 2vh;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  animation: arrow-animation 2s forwards linear infinite;
+  -webkit-animation: arrow-animation 2s forwards linear infinite;
+}
+
+
+.gradientBarTop {
+  position: relative;
+  width: 100%;
+  height: 2vh;
+  box-shadow: 0 10px 10px #000, 0 1px 10px #000, 0 2px 4px #000;
+  z-index: 2;
+}
+
+.gradientBarBottom {
+  position: relative;
+  width: 100%;
+  height: 2vh;
+  box-shadow: 0 -10px 10px #000, 0 -1px 10px #000, 0 -2px 4px #000;
+}
+
+/*----------------------
+| Keyframe -animations  |
+ ----------------------*/
+
+@keyframes arrow-animation {
+  0% {
+    opacity: 1;
+    bottom: 2vh;
+  }
+  50% {
+    opacity: 0.2;
+    bottom: 5vh;
+  }
+  100% {
+    opacity: 1;
+    bottom: 2vh;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .aboutMeContainer {
+    font-size: 3.2vw;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 979px) {
+  .aboutMeContainer {
+    font-size: 2.5vw;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .aboutMeContainer {
+    font-size: 2.1vw;
+  }
+}

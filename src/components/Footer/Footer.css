@@ -2,15 +2,16 @@
 .footerContainer {
     position: absolute;
     width: 100vw;
-    height: auto;
-    font-size: 2.5vw;
+    height: 4vh;
+    font-size: 1.2vh;
     color: #fff;
     bottom: 1vh;
     text-align: center;
 }
 
 .reactIcon {
-    width: 15vw;
+    position: relative;
+    height: 60%;
     animation: spin-element 15s forwards linear infinite;
     -webkit-animation: spin-element 15s forwards linear infinite;
 }

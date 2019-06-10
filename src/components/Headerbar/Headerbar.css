@@ -21,14 +21,6 @@
     right: 0;
 }
 
-.headerLinksTop {
-    bottom: 2vw;
-}
-
-.headerLinksBottom {
-    bottom: -7vw;
-}
-
 .headerStripe {
     position: relative;
     stroke:#fff;
@@ -37,6 +29,9 @@
 
 .imageContainer {
     position: absolute;
+    height: 30vw;
+    max-height: 23vh;
+    width: auto;
     top: 50%;
     left: 5%;
     transform: translateY(-50%);
@@ -44,6 +39,7 @@
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
+    z-index: 4;
 }
 
 .headerRing {
@@ -51,6 +47,7 @@
     height: 30vw;
     max-height: 23vh;
     width: auto;
+    z-index: inherit;
     animation: spin-element 5s forwards linear infinite;
     -webkit-animation: spin-element 5s forwards linear infinite;
 }
@@ -62,9 +59,50 @@
     width: auto;
     top: 45%;
     left: 47.5%;
+    z-index: inherit;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width: 719px) {
+    .headerLinksTop {
+        bottom: 2vw;
+    }
+    
+    .headerLinksBottom {
+        bottom: -7vw;
+    }
+  }
+
+  @media screen and (max-width: 719px) and (orientation: landscape) {
+    .headerLinksTop {
+        bottom: 1vw;
+    }
+    
+    .headerLinksBottom {
+        bottom: -4.5vw;
+    }
+}
+  
+  @media screen and (min-width: 720px) and (max-width: 979px) {
+    .headerLinksTop {
+        bottom: 1vw;
+    }
+    
+    .headerLinksBottom {
+        bottom: -4.5vw;
+    }
+  }
+
+  @media screen and (min-width: 980px) {
+    .headerLinksTop {
+        bottom: 0.5vw;
+    }
+    
+    .headerLinksBottom {
+        bottom: -3.5vw;
+    }
+  }
