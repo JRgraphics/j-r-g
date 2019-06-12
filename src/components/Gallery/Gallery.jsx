@@ -12,36 +12,36 @@ import double_arrow_r from '../../assets/double_arrow_r.png';
 
 /* Desktop */
 
-import space from '../../assets/desktopPosters/avaruus_poster.png';
-import cccp from '../../assets/desktopPosters/CCCP_poster.png';
-import ghetto from '../../assets/desktopPosters/ghetto_poster.png';
-import jungle from '../../assets/desktopPosters/jungle_poster.png';
-import melt from '../../assets/desktopPosters/melt_poster.png';
-import fwr from '../../assets/desktopPosters/FWR_poster.png';
-import disco from '../../assets/desktopPosters/disko_poster.png';
+import space from '../../assets/desktopPosters/jpgs/avaruus_poster.jpg';
+import cccp from '../../assets/desktopPosters/jpgs/CCCP_poster.jpg';
+import ghetto from '../../assets/desktopPosters/jpgs/ghetto_poster.jpg';
+import jungle from '../../assets/desktopPosters/jpgs/jungle_poster.jpg';
+import melt from '../../assets/desktopPosters/jpgs/melt_poster.jpg';
+import fwr from '../../assets/desktopPosters/jpgs/FWR_poster.jpg';
+import disco from '../../assets/desktopPosters/jpgs/disko_poster.jpg';
 
 /* Mobile */
 
-import spinnilogo from '../../assets/mobilePosters/spinni_logo.png';
+import spinnilogo from '../../assets/mobilePosters/jpgs/spinni_logo.jpg';
 
-import blackBoxM from '../../assets/mobilePosters/blackBoxM.png';
-import spaceM from '../../assets/mobilePosters/avaruus_posterM.png';
-import cccpM from '../../assets/mobilePosters/CCCP_posterM.png';
-import ghettoM from '../../assets/mobilePosters/ghetto_posterM.png';
-import jungleM from '../../assets/mobilePosters/jungle_posterM.png';
-import meltM from '../../assets/mobilePosters/melt_posterM.png';
-import fwrM from '../../assets/mobilePosters/FWR_posterM.png';
-import discoM from '../../assets/mobilePosters/disko_posterM.png';
+import blackBoxM from '../../assets/mobilePosters/jpgs/blackBoxM.jpg';
+import spaceM from '../../assets/mobilePosters/jpgs/avaruus_posterM.jpg';
+import cccpM from '../../assets/mobilePosters/jpgs/CCCP_posterM.jpg';
+import ghettoM from '../../assets/mobilePosters/jpgs/ghetto_posterM.jpg';
+import jungleM from '../../assets/mobilePosters/jpgs/jungle_posterM.jpg';
+import meltM from '../../assets/mobilePosters/jpgs/melt_posterM.jpg';
+import fwrM from '../../assets/mobilePosters/jpgs/FWR_posterM.jpg';
+import discoM from '../../assets/mobilePosters/jpgs/disko_posterM.jpg';
 
 /* Mobile Zoom */
 
-import spaceM_BIG from '../../assets/mobilePosters/avaruus_posterM_BIG.png';
-import cccpM_BIG from '../../assets/mobilePosters/CCCP_posterM_BIG.png';
-import ghettoM_BIG from '../../assets/mobilePosters/ghetto_posterM_BIG.png';
-import jungleM_BIG from '../../assets/mobilePosters/jungle_posterM_BIG.png';
-import meltM_BIG from '../../assets/mobilePosters/melt_posterM_BIG.png';
-import fwrM_BIG from '../../assets/mobilePosters/FWR_posterM_BIG.png';
-import discoM_BIG from '../../assets/mobilePosters/disko_posterM_BIG.png';
+import spaceM_BIG from '../../assets/mobilePosters/jpgs/avaruus_posterM_BIG.jpg';
+import cccpM_BIG from '../../assets/mobilePosters/jpgs/CCCP_posterM_BIG.jpg';
+import ghettoM_BIG from '../../assets/mobilePosters/jpgs/ghetto_posterM_BIG.jpg';
+import jungleM_BIG from '../../assets/mobilePosters/jpgs/jungle_posterM_BIG.jpg';
+import meltM_BIG from '../../assets/mobilePosters/jpgs/melt_posterM_BIG.jpg';
+import fwrM_BIG from '../../assets/mobilePosters/jpgs/FWR_posterM_BIG.jpg';
+import discoM_BIG from '../../assets/mobilePosters/jpgs/disko_posterM_BIG.jpg';
 
 /*--------------------*/
 

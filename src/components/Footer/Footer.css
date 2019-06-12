@@ -1,11 +1,12 @@
 
 .footerContainer {
-    position: absolute;
+    position: relative;
     width: 100vw;
     height: 4vh;
     font-size: 1.2vh;
     color: #fff;
     bottom: 1vh;
+    margin-top: 5vh;
     text-align: center;
 }
 

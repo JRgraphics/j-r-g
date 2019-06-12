@@ -9,7 +9,7 @@ import './Home.css'
 
 /* Mobile */
 
-import selfportrait from '../../assets/mobilePosters/selfportrait.png';
+import selfportrait from '../../assets/mobilePosters/jpgs/selfportrait.jpg';
 import arrow_stylish_l from '../../assets/arrow_stylish_l.png';
 import arrow_stylish_r from '../../assets/arrow_stylish_r.png';
 

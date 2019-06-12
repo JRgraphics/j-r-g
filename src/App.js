@@ -22,6 +22,10 @@ class App extends React.Component {
     }
   }
 
+  componentDidMount = () => {
+    console.log(Math.min(document.documentElement.clientHeight, window.screen.height, window.innerHeight));
+  }
+
   handeOpenZoom = data => {
     console.log(data);
     this.setState({rightCaller: 'true', zoomUrl: data.zoomUrl, zoomUrlDT: data.zoomUrlDT});
